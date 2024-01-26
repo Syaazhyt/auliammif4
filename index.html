@@ -1,0 +1,148 @@
+<html>
+<style>
+    body {
+       background-image: url("brownn.jpg");
+       background-position: center;
+       background-size: cover; 
+   }
+   
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+
+    <img src="bennerr.jpg" style="width: 100%;">
+
+
+<div class="w3-bar w3-brown w3-card-4">
+    <button class="w3-bar-item w3-button" onclick="openKota('owner')">Owner</button>
+	<button class="w3-bar-item w3-button" onclick="openKota('aboutus')">About Us</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('food')">Food</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('drink')">Drink</button>
+	<button class="w3-bar-item w3-button" onclick="openKota('dessert')">Dessert</button>
+
+        <div class="w3-dropdown-hover">
+            <button class="w3-button">Price</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openKota('hargafood')">Food</button>
+                <button class="w3-bar-item w3-button" onclick="openKota('hargadrink')">Drink</button>
+				<button class="w3-bar-item w3-button" onclick="openKota('hargadessert')">Dessert</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="owner" class="w3-container kota w3-animate-zoom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+        <center>
+            <h1 ><b>PROFIL</h1>
+        <img src="aulia.jpg" style="width: 25%;">
+        
+		<p> Nim   : 10123160</p>
+        <p> Nama  : Aulia Maysaroh Mardiansyah</p>
+		<p> Kelas : IF-4</p>
+    </div>
+	
+	<div id="aboutus" class="w3-container kota w3-animate-fading w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+        <center>
+            <h1 ><b>About Us</h1>
+			<br>
+        <img src="kedua.jpg" style="width: 50%;">
+		<br>
+		<br>
+		<p>Selamat datang di Syaa Cafe, tempat di mana kehangatan bertemu dengan kelezatan.
+		<br>
+		<br>
+		<p>Syaa Cafe menawarkan pengalaman kafe unik dengan suasana ramah dan menu beragam, 
+		<p>termasuk kopi berkualitas tinggi,teh herbal, kue, dan makanan ringan lezat.Bergabunglah 
+		<p>untuk momen istimewa dan bagikan saran agar pengalaman di Syaa Cafe semakin istimewa.  
+		<br>
+		<br>
+		<p>Terima kasih atas kunjungan Anda,dan kami berharap dapat menyambut Anda segera!</p>
+	    </center>
+    </div>
+	
+
+    <div id="food" class="w3-container kota w3-animate-left w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+        <center>
+            <h1 ><b>Menu</h1>
+		</center>
+		
+		<h2><b>1.Cookies</h2>
+        <img src="cookies.jpg" style="width: 10%;">
+        <P>Kualitas tinggi dan rasa mewah menyatukan diri dalam setiap cookies premium kami.Kesempurnaan rasa dalam setiap gigitan.</p>
+		
+		<h2><b>2.Cake Strawberry</h2>
+        <img src="cake.jpg" style="width: 10%;">
+        <P>Rasakan kebahagiaan dalam setiap gigitan kue strawberry kami. Kelembutan kue yang disempurnakan dengan manisnya buah strawberry segar.</p>
+    </div>
+
+    <div id="drink" class="w3-container kota w3-animate-top w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+        <center>
+		    <h1 ><b>Menu</h1>
+		</center>
+		
+		<h2><b>1.Coffe</h2>
+        <img src="coffe.jpg" style="width: 10%;">
+        <P>Nikmati kehangatan dan kelezatan dalam setiap tegukan kopi pilihan terbaik kami. Pengalaman kopi yang mengajak Anda menjelajahi cita rasa.</p>
+		
+		<h2><b>2.Teh</h2>
+        <img src="teh.jpg" style="width: 10%;">
+        <P>Nikmati ketenangan dalam setiap tegukan teh klasik kami. Kelezatan sederhana yang membahagiakan hati.</p>       
+    </div>
+	
+	 <div id="dessert" class="w3-container kota w3-animate-right w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+        <center>
+            <h1 ><b>Menu</h1>
+		</center>
+		
+		<h2><b>1.Chocolate ice cream</h2>
+        <img src="eskrim2.jpg" style="width: 10%;">
+        <P>Es krim cokelat kami adalah perpaduan sempurna antara kelembutan es krim premium dan cita rasa cokelat berkualitas tinggi.Kesempurnaan dalam setiap gigitan.</p>
+		
+		<h2><b>2.Ice cream cake</h2>
+        <img src="eskrim1.jpg" style="width: 10%;">
+        <P>Nikmati harmoni cita rasa antara es krim berkualitas tinggi dan kek lembut dalam setiap iris kek es krim kami.Kesenangan rasa yang tiada tara</p>
+    </div>
+
+    <div id="hargafood" class="w3-container kota w3-animate-bottom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+        <center>
+            <h1 ><b>Food</h1>
+        <img src="cookies.jpg" style="width: 25%;">
+		<img src="cake.jpg" style="width: 25%;">
+          
+        <P>&emsp;&emsp;&emsp;Cookies Rp.15.000&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Cake Stawberry Rp.25.000<p>
+		</center>	      
+    </div>
+
+    <div id="hargadrink" class="w3-container kota w3-animate-bottom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+        <center>
+            <h1 ><b>Drink</h1>
+        <img src="coffe.jpg" style="width: 25%;">
+		<img src="teh.jpg" style="width: 25%;">
+          
+        <P>Coffe Rp.20.000&emsp;&emsp;&emsp;Teh Rp.10.000&emsp;&emsp;<p>
+		</center>	      
+    </div>
+	<div id="hargadessert" class="w3-container kota w3-animate-bottom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+        <center>
+            <h1 ><b>Dessert</h1>
+        <img src="eskrim2.jpg" style="width: 25%;">
+		<img src="eskrim1.jpg" style="width: 25%;">
+          
+        <P>Chocolate ice cream Rp.15.000&emsp;&emsp;&emsp;&emsp;&emsp;Ice cream cake Rp.28.000<p>
+		</center>	      
+    </div>
+	
+	
+
+
+<script>
+    function openKota(namakota) {
+    var i;
+    var x = document.getElementsByClassName("kota");
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+    }
+    document.getElementById(namakota).style.display = "block";
+    }
+    </script>
+</html>
